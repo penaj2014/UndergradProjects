@@ -1,0 +1,11 @@
+/home/jinn/Documents/_projects/c#_programs/static_classes/obj/Debug/netcoreapp2.2/static_classes.csprojAssemblyReference.cache
+/home/jinn/Documents/_projects/c#_programs/static_classes/obj/Debug/netcoreapp2.2/static_classes.csproj.CoreCompileInputs.cache
+/home/jinn/Documents/_projects/c#_programs/static_classes/obj/Debug/netcoreapp2.2/static_classes.AssemblyInfoInputs.cache
+/home/jinn/Documents/_projects/c#_programs/static_classes/obj/Debug/netcoreapp2.2/static_classes.AssemblyInfo.cs
+/home/jinn/Documents/_projects/c#_programs/static_classes/bin/Debug/netcoreapp2.2/static_classes.deps.json
+/home/jinn/Documents/_projects/c#_programs/static_classes/bin/Debug/netcoreapp2.2/static_classes.runtimeconfig.json
+/home/jinn/Documents/_projects/c#_programs/static_classes/bin/Debug/netcoreapp2.2/static_classes.runtimeconfig.dev.json
+/home/jinn/Documents/_projects/c#_programs/static_classes/bin/Debug/netcoreapp2.2/static_classes.dll
+/home/jinn/Documents/_projects/c#_programs/static_classes/bin/Debug/netcoreapp2.2/static_classes.pdb
+/home/jinn/Documents/_projects/c#_programs/static_classes/obj/Debug/netcoreapp2.2/static_classes.dll
+/home/jinn/Documents/_projects/c#_programs/static_classes/obj/Debug/netcoreapp2.2/static_classes.pdb

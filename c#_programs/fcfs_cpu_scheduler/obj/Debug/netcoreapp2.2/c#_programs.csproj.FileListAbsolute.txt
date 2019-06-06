@@ -1,0 +1,11 @@
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/bin/Debug/netcoreapp2.2/c#_programs.deps.json
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/bin/Debug/netcoreapp2.2/c#_programs.runtimeconfig.json
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/bin/Debug/netcoreapp2.2/c#_programs.runtimeconfig.dev.json
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/bin/Debug/netcoreapp2.2/c#_programs.dll
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/bin/Debug/netcoreapp2.2/c#_programs.pdb
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/obj/Debug/netcoreapp2.2/c#_programs.csprojAssemblyReference.cache
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/obj/Debug/netcoreapp2.2/c#_programs.csproj.CoreCompileInputs.cache
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/obj/Debug/netcoreapp2.2/c#_programs.AssemblyInfoInputs.cache
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/obj/Debug/netcoreapp2.2/c#_programs.AssemblyInfo.cs
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/obj/Debug/netcoreapp2.2/c#_programs.dll
+/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/obj/Debug/netcoreapp2.2/c#_programs.pdb

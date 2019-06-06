@@ -1,0 +1,11 @@
+/home/jinn/Documents/_projects/c#_programs/firstApp/bin/Debug/netcoreapp2.2/firstApp.deps.json
+/home/jinn/Documents/_projects/c#_programs/firstApp/bin/Debug/netcoreapp2.2/firstApp.runtimeconfig.json
+/home/jinn/Documents/_projects/c#_programs/firstApp/bin/Debug/netcoreapp2.2/firstApp.runtimeconfig.dev.json
+/home/jinn/Documents/_projects/c#_programs/firstApp/bin/Debug/netcoreapp2.2/firstApp.dll
+/home/jinn/Documents/_projects/c#_programs/firstApp/bin/Debug/netcoreapp2.2/firstApp.pdb
+/home/jinn/Documents/_projects/c#_programs/firstApp/obj/Debug/netcoreapp2.2/firstApp.csprojAssemblyReference.cache
+/home/jinn/Documents/_projects/c#_programs/firstApp/obj/Debug/netcoreapp2.2/firstApp.csproj.CoreCompileInputs.cache
+/home/jinn/Documents/_projects/c#_programs/firstApp/obj/Debug/netcoreapp2.2/firstApp.AssemblyInfoInputs.cache
+/home/jinn/Documents/_projects/c#_programs/firstApp/obj/Debug/netcoreapp2.2/firstApp.AssemblyInfo.cs
+/home/jinn/Documents/_projects/c#_programs/firstApp/obj/Debug/netcoreapp2.2/firstApp.dll
+/home/jinn/Documents/_projects/c#_programs/firstApp/obj/Debug/netcoreapp2.2/firstApp.pdb

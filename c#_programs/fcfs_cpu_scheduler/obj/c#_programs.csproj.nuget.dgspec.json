@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/c#_programs.csproj": {}
+  },
+  "projects": {
+    "/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/c#_programs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/c#_programs.csproj",
+        "projectName": "c#_programs",
+        "projectPath": "/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/c#_programs.csproj",
+        "packagesPath": "/home/jinn/.nuget/packages/",
+        "outputPath": "/home/jinn/Documents/_projects/c#_programs/fcfs_cpu_scheduler/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/jinn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
