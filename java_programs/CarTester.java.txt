@@ -1,0 +1,24 @@
+package q3;
+import java.util.ArrayList;
+import java.util.Collections;
+/**
+*
+* @author xxjor
+*/
+public class CarTester {
+public static void main(String[] args){
+ArrayList<Car> cars = new ArrayList<>();
+cars.add(new Car("Ford", "Mustang", 244423789));
+cars.add(new Car("Dodge", "Charger", 875575789));
+cars.add(new Car("Ford", "Escape", 1191108589));
+cars.add(new Car("Huyndai", "Elantra", 1506727789));
+Collections.sort(cars, Car.getCompByMakeModel());
+Collections.sort(cars, Car.getCompByDate());
+System.out.println("Ordered list of make/model: ");
+for (Car c : cars)
+System.out.println(c.getMake() + " " + c.getModel());
+System.out.println("Ordered list of date: ");
+for (Car c : cars)
+System.out.println(c.getDate());
+}
+}

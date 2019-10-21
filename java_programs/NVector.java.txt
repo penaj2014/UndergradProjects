@@ -1,0 +1,112 @@
+package q2;
+import java.util.Arrays;
+public class NVector {
+/*
+**Default constructor takes dimensions n and sets all elements
+**to zero.
+**@Contract v != null
+**@Precondition n > 0
+**@Postcondition v == null
+*/
+public NVector(int n){
+v = new double[n];
+}
+/*
+**Copy constructor takes another NVector and copies
+**its state into the new object.
+**@Contract v != null
+**@Precondition NVector != null
+**@Postcondition this.v == other.v
+*/
+public NVector(NVector other){
+this.v = new double[other.v.length];
+this.v = other.v;
+}
+/*
+**VARARG Constructor takes in arguments from the user
+**and populates array v.
+**@Contract v != null
+**@Precondition ... v != null
+**@Postcondition this.v == ... v
+*/
+public NVector(double... v){
+this.v = v;
+}
+/*
+**Length returns the length of array v.
+**@return size an interger
+**@Contract v!= null
+**@Precondition v != null
+**@Postcondition none
+**@return v.length an int length of the array
+*/
+public int length(){
+return v.length;
+}
+/*
+**Gets a value at a specific index provided by the user.
+**@Contract v != null
+**@Precondition i >= 0
+**@return state a double at the position specified
+*/
+public double get(int i){
+return v[i];
+}
+/*
+**Compares two arrays of differnet objects and returns the boolean of the equation.
+**@Contract NVector != null
+**@Precondition other != null && other.v != null
+**@return result a boolean comparing two arrays
+*/
+public boolean equals(NVector other){
+boolean result = Arrays.equals(this.v,other.v);
+return result;
+}
+/*
+**Replaces the index point of an array with a new double.
+**@Contract this.v != null
+**@Precondition i >= 0
+**@return this an object with an alteered array state
+*/
+public NVector set(int i , double x){
+v[i] = x;
+return this;
+}
+/*
+**Adds two arrays v if they are the same size.
+**@Contract this.v != null
+**@Precondition other != null && other.v == nulll
+**@Return this an object with the additin of two objects
+*/
+public NVector add(NVector other){
+for(int i = 0 ; i != v.length; i++)
+{
+this.v[i] = this.v[i] + other.v[i];
+}
+return this;
+}
+/*
+**sprod returns the result of the vectors of two objects added together.
+**@Contract this.v != null
+**@Precondition other != null && other.v != null
+**@return result a double calculated from the operations performed.
+*/
+public double sprod(NVector other){
+double result = 0;
+for(int i = 0 ; i != v.length; i++)
+{
+result = result + this.v[i]*other.v[i];
+}
+return result;
+}
+/*
+** toString formats the array v and outputs it as a string
+**@Contract v != null
+**@Precondition none
+**@Return String an array formatted as a string class
+*/
+public String toString(){
+return Arrays.toString(v);
+}
+public double[] v;
+}

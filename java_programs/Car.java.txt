@@ -1,0 +1,88 @@
+package q3;
+import java.util.Date;
+import java.util.Comparator;
+import java.util.Collections;
+/**
+*
+*
+*/
+public class Car{
+/*
+**Constructor initializes the make, model, and date a car was built.
+**Contract: make != null && model != null && whenBuilt != null
+**Precondition: none
+**Postcondition:
+*/
+public Car(String make, String model, long time){
+this.make = make;
+this.model = model;
+this.whenBuilt.setTime(time);
+}
+/*
+** Accessor for the String make.
+**@Contract: make != null;
+**@Precondition: none
+**@return make a String a describing the car
+*/
+public String getMake(){
+return make;
+}
+/*
+**Accessor for the String model.
+**@Contract: model != null
+**@Precondition: none
+**@return model a String describing the car
+*/
+public String getModel(){
+return model;
+}
+/*
+**@Accessor returning the String whenBuilt
+**@Contract: whenBuilt != null
+**@Precondition: date != null
+**@return: whenBuilt.toString a string of the date
+*/
+public String getDate(){
+return whenBuilt.toString();
+}
+/*
+**toStringDate() returns the string date of whenBuilt.
+**@Contract: whenBuilt != null
+**@Precondition: date != null
+**@return: whenBuilt.toString a string of the date
+*/
+public String toStringDate(){
+return whenBuilt.toString();
+}
+/*
+**Comparator interface to sort cars by model and make.
+**@Contract: whenBuilt != null
+**@Precondition: cars != null
+**@return cars sorted by make and model
+*/
+public static Comparator<Car> getCompByMakeModel(){
+return new Comparator<Car>()
+{
+public int compare(Car cars1, Car cars2){
+return cars1.getModel().compareTo(cars2.getModel());
+}
+};
+}
+/*
+**Comparator interface to sort cars by date
+**@Contract: whenBuilt != null
+**@Precondition: cars != null
+**@return cars sorted by date
+*/
+public static Comparator<Car> getCompByDate(){
+return new Comparator<Car>()
+{
+public int compare(Car cars1, Car cars2){
+return cars1.getDate().compareTo(cars2.getDate());
+}
+};
+}
+private String make = null;
+private String model = null;
+private static final Date whenBuilt = new Date();
+}

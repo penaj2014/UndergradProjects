@@ -1,0 +1,22 @@
+package q2;
+import java.util.Arrays;
+/**
+*NVectorTester is a driver to test the NVector class.
+*This tests the various arrays created in NVector and the operations performed on them.
+*/
+public class NVectorTester {
+public static void main(String[] args){
+NVector testOne = new NVector(5); //tests constructor
+NVector testTwo = new NVector(testOne); //tests copy constructor
+NVector testThree = new NVector(1,2,3,4); //tests VARARG constructor
+System.out.println(testTwo.length()); //tests length method
+System.out.printf("Get index #3: %f%n", testThree.get(3)); //tests get method
+System.out.println(testOne.equals(testThree)); //tests equals method
+System.out.printf("This is the original array: %s%n", testThree.toString());
+testThree.set(1,55); //tests set method
+System.out.printf("This is the changed array: %s%n", testThree.toString());
+testThree.add(testThree); //tests add method
+System.out.printf("This is the added array: %s%n", testThree.toString());
+System.out.printf("Sprod result %f", testThree.sprod(testThree)); //tests sprod method
+}
+}
